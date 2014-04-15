@@ -1,0 +1,50 @@
+<div class="row">
+    <div class="page-header"><h2></h2></div>
+    <div class="col-md-12">
+        <div class="col-md-12 heroes-description">
+            <span></span>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <div>
+                    <label>
+                        <input type="radio" value="series">
+                        Series
+                    </label>
+                    <label>
+                        <input type="radio" value="comics">
+                        Comics
+                    </label>
+                </div>
+                <div>
+                    <ul class="list-group">
+                        <li class="list-group-item"><a data-toggle="modal" data-target="#serie-modal"></a></li>
+                        <li class="list-group-item">Aucune série pour ce héros :'-(</li>
+                    </ul>
+                    <ul class="list-group">
+                        <li class="list-group-item"><a data-toggle="modal" data-target="#serie-modal" ></a></li>
+                        <li class="list-group-item">Aucun comics pour ce héros :'-(</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <img class="heroes-portrait"/>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" data-backdrop="false" id="serie-modal" tabindex="-1" role="dialog">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title"><a></a></h4>
+            </div>
+            <div class="modal-body">
+                <img class="heroes-portrait"/>
+            </div>
+        </div>
+    </div>
+</div>
